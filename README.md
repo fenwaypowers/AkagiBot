@@ -1,6 +1,4 @@
-# The Nauticock Discord Bot
-
-![The Nauticock](https://cdn.discordapp.com/attachments/798075108853809163/1068405103914135623/TheNauticock_-_Copy.png)
+# AkagiBot
 
 Updated for 2023 with new slash commands, using [nextcord](https://github.com/nextcord/nextcord) for the API.
 
@@ -18,9 +16,7 @@ Updated for 2023 with new slash commands, using [nextcord](https://github.com/ne
 
 ## Features Implemented
 
-* New members will automatically be given the "Friends" role.
 * Role reaction monitor abilities.
-* Simple commands for public use such as /wiki and /website.
 
 ## Code Structure
 
@@ -34,11 +30,6 @@ Updated for 2023 with new slash commands, using [nextcord](https://github.com/ne
 * For admin commands, such as `/botsay`.
 * Full role monitoring and adding role monitors.
 * Only users with the "Board" role can use these commands.
-
-## Greetings.py
-
-* For `on_member_update()` functionality.
-* Gives the "Friends" role to new members who pass the rules screening.
 
 ## General.py
 

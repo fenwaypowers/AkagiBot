@@ -22,7 +22,7 @@ class Admin(commands.Cog):
         self.json_filename = 'cogs/reaction_roles.json'
         self.reactionRolesJson = utils.load_json(self.json_filename)
 
-        self.ROLE_FOR_ADMIN_PERMS = "Board"
+        self.ROLE_FOR_ADMIN_PERMS = "Admin"
         self.NO_PERMS_MSG = "You do not have permission to use this command!"
     
     @nextcord.slash_command(name = "botsay", description = "Make the bot send a message", guild_ids=serverIdList)
